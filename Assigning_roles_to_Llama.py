@@ -2,6 +2,9 @@
 from llama_cpp import Llama
 
 
+# Initialize the Llama model
+llm = Llama(model_path=llama_path)
+
 prompt = "Give me four short steps to troubleshoot my internet connection."
 
 conv = [
