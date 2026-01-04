@@ -1,7 +1,8 @@
 # Import the Llama class
 from llama_cpp import Llama
 
-
+# Initialize the Llama model
+llm = Llama(model_path=llama_path)
 
 # Add formatting to the prompt
 prompt="""
